@@ -1,0 +1,9 @@
+C:\Users\mohit.agarwal\Documents\C#TrainingProject\SeleniumTraining\FirstSolution\Scripts\bin\Debug\netstandard2.0\Scripts.deps.json
+C:\Users\mohit.agarwal\Documents\C#TrainingProject\SeleniumTraining\FirstSolution\Scripts\bin\Debug\netstandard2.0\Scripts.dll
+C:\Users\mohit.agarwal\Documents\C#TrainingProject\SeleniumTraining\FirstSolution\Scripts\bin\Debug\netstandard2.0\Scripts.pdb
+C:\Users\mohit.agarwal\Documents\C#TrainingProject\SeleniumTraining\FirstSolution\Scripts\obj\Debug\netstandard2.0\Scripts.csprojAssemblyReference.cache
+C:\Users\mohit.agarwal\Documents\C#TrainingProject\SeleniumTraining\FirstSolution\Scripts\obj\Debug\netstandard2.0\Scripts.csproj.CoreCompileInputs.cache
+C:\Users\mohit.agarwal\Documents\C#TrainingProject\SeleniumTraining\FirstSolution\Scripts\obj\Debug\netstandard2.0\Scripts.AssemblyInfoInputs.cache
+C:\Users\mohit.agarwal\Documents\C#TrainingProject\SeleniumTraining\FirstSolution\Scripts\obj\Debug\netstandard2.0\Scripts.AssemblyInfo.cs
+C:\Users\mohit.agarwal\Documents\C#TrainingProject\SeleniumTraining\FirstSolution\Scripts\obj\Debug\netstandard2.0\Scripts.dll
+C:\Users\mohit.agarwal\Documents\C#TrainingProject\SeleniumTraining\FirstSolution\Scripts\obj\Debug\netstandard2.0\Scripts.pdb
