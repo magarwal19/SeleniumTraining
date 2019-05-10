@@ -1,0 +1,22 @@
+C:\Users\mohit.agarwal\Documents\C# projects\Assignments\Assignments1\bin\Debug\netcoreapp2.2\Assignments1.deps.json
+C:\Users\mohit.agarwal\Documents\C# projects\Assignments\Assignments1\bin\Debug\netcoreapp2.2\Assignments1.runtimeconfig.json
+C:\Users\mohit.agarwal\Documents\C# projects\Assignments\Assignments1\bin\Debug\netcoreapp2.2\Assignments1.runtimeconfig.dev.json
+C:\Users\mohit.agarwal\Documents\C# projects\Assignments\Assignments1\bin\Debug\netcoreapp2.2\Assignments1.dll
+C:\Users\mohit.agarwal\Documents\C# projects\Assignments\Assignments1\bin\Debug\netcoreapp2.2\Assignments1.pdb
+C:\Users\mohit.agarwal\Documents\C# projects\Assignments\Assignments1\obj\Debug\netcoreapp2.2\Assignments1.csprojAssemblyReference.cache
+C:\Users\mohit.agarwal\Documents\C# projects\Assignments\Assignments1\obj\Debug\netcoreapp2.2\Assignments1.csproj.CoreCompileInputs.cache
+C:\Users\mohit.agarwal\Documents\C# projects\Assignments\Assignments1\obj\Debug\netcoreapp2.2\Assignments1.AssemblyInfoInputs.cache
+C:\Users\mohit.agarwal\Documents\C# projects\Assignments\Assignments1\obj\Debug\netcoreapp2.2\Assignments1.AssemblyInfo.cs
+C:\Users\mohit.agarwal\Documents\C# projects\Assignments\Assignments1\obj\Debug\netcoreapp2.2\Assignments1.dll
+C:\Users\mohit.agarwal\Documents\C# projects\Assignments\Assignments1\obj\Debug\netcoreapp2.2\Assignments1.pdb
+C:\Users\mohit.agarwal\Documents\C#TrainingProject\SeleniumTraining\Assignments\Assignments1\bin\Debug\netcoreapp2.2\Assignments1.deps.json
+C:\Users\mohit.agarwal\Documents\C#TrainingProject\SeleniumTraining\Assignments\Assignments1\bin\Debug\netcoreapp2.2\Assignments1.runtimeconfig.json
+C:\Users\mohit.agarwal\Documents\C#TrainingProject\SeleniumTraining\Assignments\Assignments1\bin\Debug\netcoreapp2.2\Assignments1.runtimeconfig.dev.json
+C:\Users\mohit.agarwal\Documents\C#TrainingProject\SeleniumTraining\Assignments\Assignments1\bin\Debug\netcoreapp2.2\Assignments1.dll
+C:\Users\mohit.agarwal\Documents\C#TrainingProject\SeleniumTraining\Assignments\Assignments1\bin\Debug\netcoreapp2.2\Assignments1.pdb
+C:\Users\mohit.agarwal\Documents\C#TrainingProject\SeleniumTraining\Assignments\Assignments1\obj\Debug\netcoreapp2.2\Assignments1.csprojAssemblyReference.cache
+C:\Users\mohit.agarwal\Documents\C#TrainingProject\SeleniumTraining\Assignments\Assignments1\obj\Debug\netcoreapp2.2\Assignments1.csproj.CoreCompileInputs.cache
+C:\Users\mohit.agarwal\Documents\C#TrainingProject\SeleniumTraining\Assignments\Assignments1\obj\Debug\netcoreapp2.2\Assignments1.AssemblyInfoInputs.cache
+C:\Users\mohit.agarwal\Documents\C#TrainingProject\SeleniumTraining\Assignments\Assignments1\obj\Debug\netcoreapp2.2\Assignments1.AssemblyInfo.cs
+C:\Users\mohit.agarwal\Documents\C#TrainingProject\SeleniumTraining\Assignments\Assignments1\obj\Debug\netcoreapp2.2\Assignments1.dll
+C:\Users\mohit.agarwal\Documents\C#TrainingProject\SeleniumTraining\Assignments\Assignments1\obj\Debug\netcoreapp2.2\Assignments1.pdb

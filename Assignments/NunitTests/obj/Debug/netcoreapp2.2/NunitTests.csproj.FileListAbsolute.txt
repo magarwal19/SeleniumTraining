@@ -1,0 +1,34 @@
+C:\Users\mohit.agarwal\Documents\C# projects\Assignments\NunitTests\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.dll
+C:\Users\mohit.agarwal\Documents\C# projects\Assignments\NunitTests\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.pdb
+C:\Users\mohit.agarwal\Documents\C# projects\Assignments\NunitTests\bin\Debug\netcoreapp2.2\nunit.engine.netstandard.dll
+C:\Users\mohit.agarwal\Documents\C# projects\Assignments\NunitTests\bin\Debug\netcoreapp2.2\NunitTests.deps.json
+C:\Users\mohit.agarwal\Documents\C# projects\Assignments\NunitTests\bin\Debug\netcoreapp2.2\NunitTests.runtimeconfig.json
+C:\Users\mohit.agarwal\Documents\C# projects\Assignments\NunitTests\bin\Debug\netcoreapp2.2\NunitTests.runtimeconfig.dev.json
+C:\Users\mohit.agarwal\Documents\C# projects\Assignments\NunitTests\bin\Debug\netcoreapp2.2\NunitTests.dll
+C:\Users\mohit.agarwal\Documents\C# projects\Assignments\NunitTests\bin\Debug\netcoreapp2.2\NunitTests.pdb
+C:\Users\mohit.agarwal\Documents\C# projects\Assignments\NunitTests\bin\Debug\netcoreapp2.2\Assignments1.dll
+C:\Users\mohit.agarwal\Documents\C# projects\Assignments\NunitTests\bin\Debug\netcoreapp2.2\Assignments1.pdb
+C:\Users\mohit.agarwal\Documents\C# projects\Assignments\NunitTests\obj\Debug\netcoreapp2.2\NunitTests.csprojAssemblyReference.cache
+C:\Users\mohit.agarwal\Documents\C# projects\Assignments\NunitTests\obj\Debug\netcoreapp2.2\NunitTests.csproj.CoreCompileInputs.cache
+C:\Users\mohit.agarwal\Documents\C# projects\Assignments\NunitTests\obj\Debug\netcoreapp2.2\NunitTests.AssemblyInfoInputs.cache
+C:\Users\mohit.agarwal\Documents\C# projects\Assignments\NunitTests\obj\Debug\netcoreapp2.2\NunitTests.AssemblyInfo.cs
+C:\Users\mohit.agarwal\Documents\C# projects\Assignments\NunitTests\obj\Debug\netcoreapp2.2\NunitTests.csproj.CopyComplete
+C:\Users\mohit.agarwal\Documents\C# projects\Assignments\NunitTests\obj\Debug\netcoreapp2.2\NunitTests.dll
+C:\Users\mohit.agarwal\Documents\C# projects\Assignments\NunitTests\obj\Debug\netcoreapp2.2\NunitTests.pdb
+C:\Users\mohit.agarwal\Documents\C#TrainingProject\SeleniumTraining\Assignments\NunitTests\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.dll
+C:\Users\mohit.agarwal\Documents\C#TrainingProject\SeleniumTraining\Assignments\NunitTests\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.pdb
+C:\Users\mohit.agarwal\Documents\C#TrainingProject\SeleniumTraining\Assignments\NunitTests\bin\Debug\netcoreapp2.2\nunit.engine.netstandard.dll
+C:\Users\mohit.agarwal\Documents\C#TrainingProject\SeleniumTraining\Assignments\NunitTests\bin\Debug\netcoreapp2.2\NunitTests.deps.json
+C:\Users\mohit.agarwal\Documents\C#TrainingProject\SeleniumTraining\Assignments\NunitTests\bin\Debug\netcoreapp2.2\NunitTests.runtimeconfig.json
+C:\Users\mohit.agarwal\Documents\C#TrainingProject\SeleniumTraining\Assignments\NunitTests\bin\Debug\netcoreapp2.2\NunitTests.runtimeconfig.dev.json
+C:\Users\mohit.agarwal\Documents\C#TrainingProject\SeleniumTraining\Assignments\NunitTests\bin\Debug\netcoreapp2.2\NunitTests.dll
+C:\Users\mohit.agarwal\Documents\C#TrainingProject\SeleniumTraining\Assignments\NunitTests\bin\Debug\netcoreapp2.2\NunitTests.pdb
+C:\Users\mohit.agarwal\Documents\C#TrainingProject\SeleniumTraining\Assignments\NunitTests\bin\Debug\netcoreapp2.2\Assignments1.dll
+C:\Users\mohit.agarwal\Documents\C#TrainingProject\SeleniumTraining\Assignments\NunitTests\bin\Debug\netcoreapp2.2\Assignments1.pdb
+C:\Users\mohit.agarwal\Documents\C#TrainingProject\SeleniumTraining\Assignments\NunitTests\obj\Debug\netcoreapp2.2\NunitTests.csprojAssemblyReference.cache
+C:\Users\mohit.agarwal\Documents\C#TrainingProject\SeleniumTraining\Assignments\NunitTests\obj\Debug\netcoreapp2.2\NunitTests.csproj.CoreCompileInputs.cache
+C:\Users\mohit.agarwal\Documents\C#TrainingProject\SeleniumTraining\Assignments\NunitTests\obj\Debug\netcoreapp2.2\NunitTests.AssemblyInfoInputs.cache
+C:\Users\mohit.agarwal\Documents\C#TrainingProject\SeleniumTraining\Assignments\NunitTests\obj\Debug\netcoreapp2.2\NunitTests.AssemblyInfo.cs
+C:\Users\mohit.agarwal\Documents\C#TrainingProject\SeleniumTraining\Assignments\NunitTests\obj\Debug\netcoreapp2.2\NunitTests.csproj.CopyComplete
+C:\Users\mohit.agarwal\Documents\C#TrainingProject\SeleniumTraining\Assignments\NunitTests\obj\Debug\netcoreapp2.2\NunitTests.dll
+C:\Users\mohit.agarwal\Documents\C#TrainingProject\SeleniumTraining\Assignments\NunitTests\obj\Debug\netcoreapp2.2\NunitTests.pdb
