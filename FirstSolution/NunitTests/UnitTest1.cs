@@ -7,6 +7,7 @@ using OpenQA.Selenium.Edge;
 using Scripts;
 using OpenQA.Selenium.Support.UI;
 using System;
+using System.Collections.Generic;
 namespace Tests
 {
     [TestFixture]
@@ -78,12 +79,12 @@ namespace Tests
             }
            // Assert.AreEqual(actualUrl, _applicationUrl);
             WebDriverWait wait = new WebDriverWait(_driver, new TimeSpan(0, 1, 0));
-            wait.Until(ExpectedConditions.ElementExists(By.ClassName("noo-search")));
-            //_driver.FindElement(By.ClassName("noo-search")).Click();
-            //_driver.FindElement(By.XPath("//a[@class='noo-search']")).Click();
-            //_driver.FindElement(By.ClassName("form-control")).SendKeys("hello test");
+            wait.Until(ExpectedConditions.ElementExists(By.ClassName("custom-logo")));
+            _driver.FindElement(By.XPath("//a[@class='noo-search']")).Click();
+            _driver.FindElement(By.Name("s")).SendKeys("hello test");
+            _driver.FindElement(By.Name("s")).SendKeys(Keys.Enter);
+            //_driver.FindElement(By.XPath("//div[@class='remove-form']")).Click();
             _driver.FindElement(By.CssSelector("a[href*='http://shop.demoqa.com/']")).Click();
-            //_driver.FindElement(By.TagName("a")).Click();
             var hrefList =_driver.FindElements(By.PartialLinkText("My"));
             foreach (var item in hrefList)
             {
@@ -94,12 +95,40 @@ namespace Tests
                     item.Click();
                 }
             }
+            IWebElement freeShipping= _driver.FindElement(By.XPath("//div[@class='noo-service-content']/h3"));
+            Assert.AreEqual("FREE SHIPPING",freeShipping.Text);
+            _driver.FindElement(By.TagName("a")).Click();
+            IList<IWebElement> h3Tags= _driver.FindElements(By.XPath("//div[contains(@class,'noo-services style_left image')]//descendant::h3"));
+            foreach (IWebElement h3TagValue in h3Tags)
+            {
+                if("FREE SHIPPING".Equals(h3TagValue.Text))
+                {
+                    System.Console.WriteLine("The value is Free Shipping");
+                }
+                else if ("Secure payment".Equals(h3TagValue.Text,StringComparison.OrdinalIgnoreCase))
+                {
+                    System.Console.WriteLine("The value is Secure payment");
+                }
+                else if ("2 Years Warranty".Equals(h3TagValue.Text,StringComparison.OrdinalIgnoreCase))
+                {
+                    System.Console.WriteLine("The value is 2 Years Warranty");
+                }
+                else if ("Money back 30 days".Equals(h3TagValue.Text,StringComparison.OrdinalIgnoreCase))
+                {
+                    System.Console.WriteLine("The value is Money back 30 days");
+                }
+                else
+                {
+                    Assert.Fail("Value is not as expected " + h3TagValue.Text);
+                }
+
+            }
         }
-        // [TearDown]
-        /* public void TearDown()
+        [TearDown]
+        public void TearDown()
         {
             if (_driver != null)
                 _driver.Quit();
-        }*/
+        }
     }
 }
