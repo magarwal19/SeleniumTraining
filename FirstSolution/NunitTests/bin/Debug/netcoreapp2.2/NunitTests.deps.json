@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.2",
-    "signature": "eb4b8a89e3d0aef17fcb6f4d299f851bcf2b4e6e"
+    "signature": "09ffdec63fa83a87b6969f46b051b51dd9f30856"
   },
   "compilationOptions": {},
   "targets": {
@@ -11,7 +11,7 @@
           "Microsoft.NET.Test.Sdk": "15.9.0",
           "NUnit3TestAdapter": "3.11.0",
           "Scripts": "1.0.0",
-          "Selenium.Chrome.WebDriver": "2.46.0",
+          "Selenium.Chrome.WebDriver": "74.0.0",
           "Selenium.Support": "3.141.0",
           "Selenium.WebDriver": "3.141.0",
           "SpecFlow": "3.0.213",
@@ -444,7 +444,7 @@
         }
       },
       "runtime.native.System/4.3.0": {},
-      "Selenium.Chrome.WebDriver/2.46.0": {},
+      "Selenium.Chrome.WebDriver/74.0.0": {},
       "Selenium.Support/3.141.0": {
         "dependencies": {
           "Selenium.WebDriver": "3.141.0"
@@ -1261,12 +1261,12 @@
       "path": "runtime.native.system/4.3.0",
       "hashPath": "runtime.native.system.4.3.0.nupkg.sha512"
     },
-    "Selenium.Chrome.WebDriver/2.46.0": {
+    "Selenium.Chrome.WebDriver/74.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Gkh70CERkAIcjK4LAKmftKDnh2knRRw2c6BnnI9xhFMA4nbaoGTyxf8416gzLdGu9IeeoTe7xkTS9vWQRCZt9A==",
-      "path": "selenium.chrome.webdriver/2.46.0",
-      "hashPath": "selenium.chrome.webdriver.2.46.0.nupkg.sha512"
+      "sha512": "sha512-3HCLOrNh20kZ+Om1REzpBAICajkTbXI7SvG0FVbYRC0yif/umRh7u5EVXpf9Fo3rK/uexG8GB5kAI6xBwStyIA==",
+      "path": "selenium.chrome.webdriver/74.0.0",
+      "hashPath": "selenium.chrome.webdriver.74.0.0.nupkg.sha512"
     },
     "Selenium.Support/3.141.0": {
       "type": "package",
