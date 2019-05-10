@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mohit.agarwal\\Documents\\C#TrainingProject\\SeleniumTraining\\FirstSolution\\Scripts\\Scripts.csproj": {}
+    "c:\\Users\\mohit.agarwal\\Documents\\C#TrainingProject\\SeleniumTraining\\FirstSolution\\Scripts\\Scripts.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mohit.agarwal\\Documents\\C#TrainingProject\\SeleniumTraining\\FirstSolution\\Scripts\\Scripts.csproj": {
+    "c:\\Users\\mohit.agarwal\\Documents\\C#TrainingProject\\SeleniumTraining\\FirstSolution\\Scripts\\Scripts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mohit.agarwal\\Documents\\C#TrainingProject\\SeleniumTraining\\FirstSolution\\Scripts\\Scripts.csproj",
+        "projectUniqueName": "c:\\Users\\mohit.agarwal\\Documents\\C#TrainingProject\\SeleniumTraining\\FirstSolution\\Scripts\\Scripts.csproj",
         "projectName": "Scripts",
-        "projectPath": "C:\\Users\\mohit.agarwal\\Documents\\C#TrainingProject\\SeleniumTraining\\FirstSolution\\Scripts\\Scripts.csproj",
+        "projectPath": "c:\\Users\\mohit.agarwal\\Documents\\C#TrainingProject\\SeleniumTraining\\FirstSolution\\Scripts\\Scripts.csproj",
         "packagesPath": "C:\\Users\\mohit.agarwal\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mohit.agarwal\\Documents\\C#TrainingProject\\SeleniumTraining\\FirstSolution\\Scripts\\obj\\",
+        "outputPath": "c:\\Users\\mohit.agarwal\\Documents\\C#TrainingProject\\SeleniumTraining\\FirstSolution\\Scripts\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
