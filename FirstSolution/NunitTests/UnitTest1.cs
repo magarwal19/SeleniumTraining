@@ -123,6 +123,7 @@ namespace Tests
                 }
 
             }
+            _driver.FindElement(By.XPath("//a[contains(@href,'http://shop.demoqa.com/') and text()='Checkout']")).Click();
         }
         [TearDown]
         public void TearDown()
