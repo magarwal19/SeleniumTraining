@@ -7,3 +7,12 @@ C:\Users\mohit.agarwal\Documents\C#TrainingProject\SeleniumTraining\FirstSolutio
 C:\Users\mohit.agarwal\Documents\C#TrainingProject\SeleniumTraining\FirstSolution\Scripts\obj\Debug\netstandard2.0\Scripts.AssemblyInfo.cs
 C:\Users\mohit.agarwal\Documents\C#TrainingProject\SeleniumTraining\FirstSolution\Scripts\obj\Debug\netstandard2.0\Scripts.dll
 C:\Users\mohit.agarwal\Documents\C#TrainingProject\SeleniumTraining\FirstSolution\Scripts\obj\Debug\netstandard2.0\Scripts.pdb
+c:\Users\mohit.agarwal\Documents\C#TrainingProject\SeleniumTraining\SeleniumFirstSolution\Scripts\bin\Debug\netstandard2.0\Scripts.deps.json
+c:\Users\mohit.agarwal\Documents\C#TrainingProject\SeleniumTraining\SeleniumFirstSolution\Scripts\bin\Debug\netstandard2.0\Scripts.dll
+c:\Users\mohit.agarwal\Documents\C#TrainingProject\SeleniumTraining\SeleniumFirstSolution\Scripts\bin\Debug\netstandard2.0\Scripts.pdb
+c:\Users\mohit.agarwal\Documents\C#TrainingProject\SeleniumTraining\SeleniumFirstSolution\Scripts\obj\Debug\netstandard2.0\Scripts.csprojAssemblyReference.cache
+c:\Users\mohit.agarwal\Documents\C#TrainingProject\SeleniumTraining\SeleniumFirstSolution\Scripts\obj\Debug\netstandard2.0\Scripts.csproj.CoreCompileInputs.cache
+c:\Users\mohit.agarwal\Documents\C#TrainingProject\SeleniumTraining\SeleniumFirstSolution\Scripts\obj\Debug\netstandard2.0\Scripts.AssemblyInfoInputs.cache
+c:\Users\mohit.agarwal\Documents\C#TrainingProject\SeleniumTraining\SeleniumFirstSolution\Scripts\obj\Debug\netstandard2.0\Scripts.AssemblyInfo.cs
+c:\Users\mohit.agarwal\Documents\C#TrainingProject\SeleniumTraining\SeleniumFirstSolution\Scripts\obj\Debug\netstandard2.0\Scripts.dll
+c:\Users\mohit.agarwal\Documents\C#TrainingProject\SeleniumTraining\SeleniumFirstSolution\Scripts\obj\Debug\netstandard2.0\Scripts.pdb
