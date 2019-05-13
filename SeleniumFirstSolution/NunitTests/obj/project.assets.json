@@ -6205,11 +6205,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mohit.agarwal\\Documents\\C#TrainingProject\\SeleniumTraining\\SeleniumFirstSolution\\NunitTests\\NunitTests.csproj",
+      "projectUniqueName": "c:\\Users\\mohit.agarwal\\Documents\\C#TrainingProject\\SeleniumTraining\\SeleniumFirstSolution\\NunitTests\\NunitTests.csproj",
       "projectName": "NunitTests",
-      "projectPath": "C:\\Users\\mohit.agarwal\\Documents\\C#TrainingProject\\SeleniumTraining\\SeleniumFirstSolution\\NunitTests\\NunitTests.csproj",
+      "projectPath": "c:\\Users\\mohit.agarwal\\Documents\\C#TrainingProject\\SeleniumTraining\\SeleniumFirstSolution\\NunitTests\\NunitTests.csproj",
       "packagesPath": "C:\\Users\\mohit.agarwal\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mohit.agarwal\\Documents\\C#TrainingProject\\SeleniumTraining\\SeleniumFirstSolution\\NunitTests\\obj\\",
+      "outputPath": "c:\\Users\\mohit.agarwal\\Documents\\C#TrainingProject\\SeleniumTraining\\SeleniumFirstSolution\\NunitTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -6226,8 +6226,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\mohit.agarwal\\Documents\\C#TrainingProject\\SeleniumTraining\\SeleniumFirstSolution\\Scripts\\Scripts.csproj": {
-              "projectPath": "C:\\Users\\mohit.agarwal\\Documents\\C#TrainingProject\\SeleniumTraining\\SeleniumFirstSolution\\Scripts\\Scripts.csproj"
+            "c:\\Users\\mohit.agarwal\\Documents\\C#TrainingProject\\SeleniumTraining\\SeleniumFirstSolution\\Scripts\\Scripts.csproj": {
+              "projectPath": "c:\\Users\\mohit.agarwal\\Documents\\C#TrainingProject\\SeleniumTraining\\SeleniumFirstSolution\\Scripts\\Scripts.csproj"
             }
           }
         }

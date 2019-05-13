@@ -1,0 +1,14 @@
+C:\Users\mohit.agarwal\Documents\C#TrainingProject\SeleniumTraining\13MayAssignments\NunitTestCases\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.dll
+C:\Users\mohit.agarwal\Documents\C#TrainingProject\SeleniumTraining\13MayAssignments\NunitTestCases\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.pdb
+C:\Users\mohit.agarwal\Documents\C#TrainingProject\SeleniumTraining\13MayAssignments\NunitTestCases\bin\Debug\netcoreapp2.2\nunit.engine.netstandard.dll
+C:\Users\mohit.agarwal\Documents\C#TrainingProject\SeleniumTraining\13MayAssignments\NunitTestCases\bin\Debug\netcoreapp2.2\NunitTestCases.deps.json
+C:\Users\mohit.agarwal\Documents\C#TrainingProject\SeleniumTraining\13MayAssignments\NunitTestCases\bin\Debug\netcoreapp2.2\NunitTestCases.runtimeconfig.json
+C:\Users\mohit.agarwal\Documents\C#TrainingProject\SeleniumTraining\13MayAssignments\NunitTestCases\bin\Debug\netcoreapp2.2\NunitTestCases.runtimeconfig.dev.json
+C:\Users\mohit.agarwal\Documents\C#TrainingProject\SeleniumTraining\13MayAssignments\NunitTestCases\bin\Debug\netcoreapp2.2\NunitTestCases.dll
+C:\Users\mohit.agarwal\Documents\C#TrainingProject\SeleniumTraining\13MayAssignments\NunitTestCases\bin\Debug\netcoreapp2.2\NunitTestCases.pdb
+C:\Users\mohit.agarwal\Documents\C#TrainingProject\SeleniumTraining\13MayAssignments\NunitTestCases\obj\Debug\netcoreapp2.2\NunitTestCases.csprojAssemblyReference.cache
+C:\Users\mohit.agarwal\Documents\C#TrainingProject\SeleniumTraining\13MayAssignments\NunitTestCases\obj\Debug\netcoreapp2.2\NunitTestCases.csproj.CoreCompileInputs.cache
+C:\Users\mohit.agarwal\Documents\C#TrainingProject\SeleniumTraining\13MayAssignments\NunitTestCases\obj\Debug\netcoreapp2.2\NunitTestCases.AssemblyInfoInputs.cache
+C:\Users\mohit.agarwal\Documents\C#TrainingProject\SeleniumTraining\13MayAssignments\NunitTestCases\obj\Debug\netcoreapp2.2\NunitTestCases.AssemblyInfo.cs
+C:\Users\mohit.agarwal\Documents\C#TrainingProject\SeleniumTraining\13MayAssignments\NunitTestCases\obj\Debug\netcoreapp2.2\NunitTestCases.dll
+C:\Users\mohit.agarwal\Documents\C#TrainingProject\SeleniumTraining\13MayAssignments\NunitTestCases\obj\Debug\netcoreapp2.2\NunitTestCases.pdb
