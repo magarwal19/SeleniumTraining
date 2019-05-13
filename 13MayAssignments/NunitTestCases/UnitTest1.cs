@@ -82,8 +82,10 @@ namespace Tests
             driverInitialize("firefox");
             LaunchApplication("http://shop.demoqa.com/");
             System.Console.WriteLine("Page titile is " + _driver.Title);
+            StringAssert.AreEqualIgnoringCase("ToolsQA Demo Site – ToolsQA – Demo E-Commerce Site",_driver.Title);
             System.Console.WriteLine("Title length is " + _driver.Title.Length);
             System.Console.WriteLine("Page URL is " + _driver.Url);
+            StringAssert.AreEqualIgnoringCase("http://shop.demoqa.com/",_driver.Url);
             System.Console.WriteLine("Url length is " + _driver.Url.Length);
             System.Console.WriteLine("Source Code length is " + _driver.PageSource.Length);
             _driver.Quit();

@@ -11,7 +11,7 @@ namespace Assignment1
             int val1, val2;
             double sumOfRupees, rateOfInterest, tenureInYears, numberOfTimes, totalInterest;
             Console.WriteLine("Hi Welcome to the program for assignment 2");
-            Console.WriteLine("Enter 1 to convert a String from Title Case to Camel Case");
+            Console.WriteLine("Enter 1 to convert a String to Title Case and Camel Case");
             Console.WriteLine("Enter 2 to print the number of words in a string");
             Console.WriteLine("Enter 3 to print the number of unique words in a string");
             Console.WriteLine("Enter 4 to perfrom maths operation using Delegate");
@@ -22,8 +22,9 @@ namespace Assignment1
                 case 1:
                     Console.WriteLine("Enter string in Title case which needs to be converted to camel case");
                     inputString = Console.ReadLine();
-                    TitleCaseToCamelCase caseConversion = new TitleCaseToCamelCase();
-                    Console.WriteLine("The value after conversion is " + caseConversion.titleCaseConversion(inputString));
+                    TitleCaseAndCamelCase caseConversion = new TitleCaseAndCamelCase();
+                    Console.WriteLine("The value after conversion into Came case is " + caseConversion.CamelCaseConversion(inputString));
+                    Console.WriteLine("The value after conversion into Title case is " + caseConversion.TitleCaseConversion(inputString));
                     break;
                 case 2:
                     CalculateNumberOfWordsString calculateWords = new CalculateNumberOfWordsString();

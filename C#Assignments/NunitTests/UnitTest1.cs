@@ -36,12 +36,20 @@ namespace Tests
             CountDistinctWordsInString cal = new CountDistinctWordsInString();
             Assert.AreEqual(6, cal.DistinctWords("test the the number number of unique word"));
         }
-        //test the TitleCase to CamelCase
+        //test the CamelCase
         [Test]
-        public void testTitleToCamelCase()
+        public void testCamelCase()
         {
-            TitleCaseToCamelCase convert = new TitleCaseToCamelCase();
-            Assert.AreEqual("TestATitleCase", convert.titleCaseConversion("Test a Title Case"));
+            TitleCaseAndCamelCase convert = new TitleCaseAndCamelCase();
+            Assert.AreEqual("TestATitleCase", convert.CamelCaseConversion("Test a Title Case"));
+        }
+        
+        //test the CamelCase
+        [Test]
+        public void testTitleCase()
+        {
+            TitleCaseAndCamelCase convert = new TitleCaseAndCamelCase();
+            Assert.AreEqual("Test a Title Case", convert.TitleCaseConversion("TEST A Title Case"));
         }
         //test the delegate
         [Test]
