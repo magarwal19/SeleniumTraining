@@ -15,7 +15,7 @@ namespace Tests
     {
         private static IWebDriver _driver;
         private string _applicationUrl = "http://shop.demoqa.com/";
-        private string driverPath = @"C:\Users\mohit.agarwal\Documents\C#TrainingProject\SeleniumTraining\SeleniumFirstSolution\Drivers\";
+        private string driverPath =@".\..\..\..\..\Drivers\";
         private void driverInitialize(string browser)
         {
             if (browser.Equals("chrome"))
