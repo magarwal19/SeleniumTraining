@@ -124,6 +124,10 @@ namespace Tests
 
             }
             _driver.FindElement(By.XPath("//a[contains(@href,'http://shop.demoqa.com/') and text()='Checkout']")).Click();
+            _driver.FindElement(By.XPath("//a[@class='custom-logo-link']/child::img")).Click();
+            _driver.FindElement(By.XPath("//*[contains(text(),'playboy x missguided plus size')]//self::a")).Click();
+            String text=_driver.FindElement(By.XPath("//div[@class='product-essential__description']//following-sibling::div")).Text;
+            StringAssert.Contains("55% polyester ",text);
         }
         [TearDown]
         public void TearDown()
