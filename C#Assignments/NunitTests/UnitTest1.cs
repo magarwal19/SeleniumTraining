@@ -41,7 +41,7 @@ namespace Tests
         public void testCamelCase()
         {
             TitleCaseAndCamelCase convert = new TitleCaseAndCamelCase();
-            Assert.AreEqual("TestATitleCase", convert.CamelCaseConversion("Test a Title Case"));
+            Assert.AreEqual("testATitleCase", convert.CamelCaseConversion("Test a Title Case"));
         }
         
         //test the CamelCase

@@ -11,11 +11,15 @@ namespace Assignment1
             {
                 for(int j=0;j<arrayString[i].Length;j++)
                 {
-                    if(j==0)
+                    if(j==0 && i!=0)
                     {
                         tempString=arrayString[i][j].ToString().ToUpper();
                     }
-                    else
+                    else if (j==0 && i==0)
+                    {
+                        tempString=arrayString[i][j].ToString().ToLower();
+                    }
+                    else if(j>0)
                     {
                         tempString+=arrayString[i][j].ToString().ToLower();
                     }

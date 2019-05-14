@@ -1,0 +1,14 @@
+C:\Users\mohit.agarwal\Documents\C#TrainingProject\SeleniumTraining\14MayAssignment\TestCases\obj\Debug\netcoreapp2.2\TestCases.csprojAssemblyReference.cache
+C:\Users\mohit.agarwal\Documents\C#TrainingProject\SeleniumTraining\14MayAssignment\TestCases\obj\Debug\netcoreapp2.2\TestCases.csproj.CoreCompileInputs.cache
+C:\Users\mohit.agarwal\Documents\C#TrainingProject\SeleniumTraining\14MayAssignment\TestCases\obj\Debug\netcoreapp2.2\TestCases.AssemblyInfoInputs.cache
+C:\Users\mohit.agarwal\Documents\C#TrainingProject\SeleniumTraining\14MayAssignment\TestCases\obj\Debug\netcoreapp2.2\TestCases.AssemblyInfo.cs
+C:\Users\mohit.agarwal\Documents\C#TrainingProject\SeleniumTraining\14MayAssignment\TestCases\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.dll
+C:\Users\mohit.agarwal\Documents\C#TrainingProject\SeleniumTraining\14MayAssignment\TestCases\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.pdb
+C:\Users\mohit.agarwal\Documents\C#TrainingProject\SeleniumTraining\14MayAssignment\TestCases\bin\Debug\netcoreapp2.2\nunit.engine.netstandard.dll
+C:\Users\mohit.agarwal\Documents\C#TrainingProject\SeleniumTraining\14MayAssignment\TestCases\bin\Debug\netcoreapp2.2\TestCases.deps.json
+C:\Users\mohit.agarwal\Documents\C#TrainingProject\SeleniumTraining\14MayAssignment\TestCases\bin\Debug\netcoreapp2.2\TestCases.runtimeconfig.json
+C:\Users\mohit.agarwal\Documents\C#TrainingProject\SeleniumTraining\14MayAssignment\TestCases\bin\Debug\netcoreapp2.2\TestCases.runtimeconfig.dev.json
+C:\Users\mohit.agarwal\Documents\C#TrainingProject\SeleniumTraining\14MayAssignment\TestCases\bin\Debug\netcoreapp2.2\TestCases.dll
+C:\Users\mohit.agarwal\Documents\C#TrainingProject\SeleniumTraining\14MayAssignment\TestCases\bin\Debug\netcoreapp2.2\TestCases.pdb
+C:\Users\mohit.agarwal\Documents\C#TrainingProject\SeleniumTraining\14MayAssignment\TestCases\obj\Debug\netcoreapp2.2\TestCases.dll
+C:\Users\mohit.agarwal\Documents\C#TrainingProject\SeleniumTraining\14MayAssignment\TestCases\obj\Debug\netcoreapp2.2\TestCases.pdb
