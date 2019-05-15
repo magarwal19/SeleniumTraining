@@ -8,6 +8,7 @@ using Scripts;
 using OpenQA.Selenium.Support.UI;
 using System;
 using System.Collections.Generic;
+using SeleniumExtras.WaitHelpers;
 namespace Tests
 {
     [TestFixture]
@@ -79,7 +80,7 @@ namespace Tests
             }
            // Assert.AreEqual(actualUrl, _applicationUrl);
             WebDriverWait wait = new WebDriverWait(_driver, new TimeSpan(0, 1, 0));
-            wait.Until(ExpectedConditions.ElementExists(By.ClassName("custom-logo")));
+            wait.Until(SeleniumExtras.WaitHelpers.ExpectedConditions.ElementExists(By.ClassName("custom-logo")));
             _driver.FindElement(By.XPath("//a[@class='noo-search']")).Click();
             _driver.FindElement(By.Name("s")).SendKeys("hello test");
             _driver.FindElement(By.Name("s")).SendKeys(Keys.Enter);
