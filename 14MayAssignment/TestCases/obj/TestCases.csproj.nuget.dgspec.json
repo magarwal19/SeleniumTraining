@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\mohit.agarwal\\Documents\\C#TrainingProject\\SeleniumTraining\\14MayAssignment\\TestCases\\TestCases.csproj": {}
+    "C:\\Users\\mohit.agarwal\\Documents\\C#TrainingProject\\SeleniumTraining\\14MayAssignment\\TestCases\\TestCases.csproj": {}
   },
   "projects": {
-    "c:\\Users\\mohit.agarwal\\Documents\\C#TrainingProject\\SeleniumTraining\\14MayAssignment\\TestCases\\TestCases.csproj": {
+    "C:\\Users\\mohit.agarwal\\Documents\\C#TrainingProject\\SeleniumTraining\\14MayAssignment\\TestCases\\TestCases.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\mohit.agarwal\\Documents\\C#TrainingProject\\SeleniumTraining\\14MayAssignment\\TestCases\\TestCases.csproj",
+        "projectUniqueName": "C:\\Users\\mohit.agarwal\\Documents\\C#TrainingProject\\SeleniumTraining\\14MayAssignment\\TestCases\\TestCases.csproj",
         "projectName": "TestCases",
-        "projectPath": "c:\\Users\\mohit.agarwal\\Documents\\C#TrainingProject\\SeleniumTraining\\14MayAssignment\\TestCases\\TestCases.csproj",
+        "projectPath": "C:\\Users\\mohit.agarwal\\Documents\\C#TrainingProject\\SeleniumTraining\\14MayAssignment\\TestCases\\TestCases.csproj",
         "packagesPath": "C:\\Users\\mohit.agarwal\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\mohit.agarwal\\Documents\\C#TrainingProject\\SeleniumTraining\\14MayAssignment\\TestCases\\obj\\",
+        "outputPath": "C:\\Users\\mohit.agarwal\\Documents\\C#TrainingProject\\SeleniumTraining\\14MayAssignment\\TestCases\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

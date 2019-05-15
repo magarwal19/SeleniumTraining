@@ -1,7 +1,8 @@
 using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Firefox;
-using OpenQA.Selenium.Support.PageObjects;
+using SeleniumExtras.PageObjects;
+using Wrapper;
 using Tests;
 
 namespace Tests
@@ -17,12 +18,14 @@ namespace Tests
         public void Test()
         {
             driver = new FirefoxDriver(@".\..\..\..\..\Drivers\");
-            driver.Url = "http://www.store.demoqa.com";
-            var homePage = new HomePage(driver);
-            var loginPage = new LoginPage(driver);
-            homePage.LogInTxt.Click();
-            loginPage.UserName.SendKeys("testuser");
-            loginPage.UserPassword.SendKeys("Test@123");
+            driver.Url = "http://shop.demoqa.com/";
+            var homePage = new HomePage();
+            PageFactory.InitElements(driver,homePage);
+            CommonFunctions.click(homePage.LogInTxt);
+            var loginPage = new LoginPage();
+            PageFactory.InitElements(driver,loginPage);
+            CommonFunctions.enterKeys(loginPage.UserName,"testuser");
+            CommonFunctions.enterKeys(loginPage.UserPassword,"Test@123");
             // Now submit the form.
             loginPage.SubmitButton.Click();
             driver.Quit();
