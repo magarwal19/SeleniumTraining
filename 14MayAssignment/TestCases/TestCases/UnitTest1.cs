@@ -27,7 +27,7 @@ namespace Tests
             CommonFunctions.enterKeys(loginPage.UserName,"testuser");
             CommonFunctions.enterKeys(loginPage.UserPassword,"Test@123");
             // Now submit the form.
-            loginPage.SubmitButton.Click();
+            CommonFunctions.click(loginPage.SubmitButton);
             driver.Quit();
 
         }
