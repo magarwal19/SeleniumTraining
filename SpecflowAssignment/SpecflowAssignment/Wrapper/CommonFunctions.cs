@@ -149,13 +149,14 @@ namespace SpecflowAssignment.Wrapper
         }
         public static void validateObjectInVisible(By by, string objectName)
         {
-            if (!driver.FindElement(by).Displayed)
+            try
+            {
+                if (driver.FindElement(by).Displayed)
+                    Assert.Fail("The object " + objectName + " is visible");
+            }
+            catch(NoSuchElementException)
             {
                 Console.WriteLine("The object " + objectName + " is not visible");
-            }
-            else
-            {
-                Assert.Fail("The object " + objectName + " is visible");
             }
         }
 
@@ -166,15 +167,9 @@ namespace SpecflowAssignment.Wrapper
 
         public static void selectDropDownByText(By by, string value)
         {
-            try
-            {
-                SelectElement oSelect = new SelectElement(CommonFunctions.FindElementBy(by));
-                oSelect.SelectByText(value);
-            }
-            catch(UnexpectedTagNameException e)
-            {
-                Console.WriteLine();
-            }
+            SelectElement oSelect = new SelectElement(CommonFunctions.FindElementBy(by));
+            oSelect.SelectByText(value);
+          
         }
     }
 }

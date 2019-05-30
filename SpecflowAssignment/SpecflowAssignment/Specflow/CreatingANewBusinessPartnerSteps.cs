@@ -114,7 +114,7 @@ namespace SpecflowAssignment.Specflow
             partnerInfo.organization = "Fertilizer";
             partnerInfo.rating = "C";
             partnerInfo.referenceNumber = "user123";
-            partnerInfo.searchKey = "9993";
+            partnerInfo.searchKey = "9994";
             partnerInfo.vendor = true;
             partnerInfo.businessPartnerGroup = "Customers";
             partnerInfo.creditStatus = "OK";
@@ -131,9 +131,11 @@ namespace SpecflowAssignment.Specflow
         [Then(@"A new business partner should be created")]
         public void ThenANewBusinessPartnerShouldBeCreated()
         {
-            RecentItemsWindowLocators.createBusinessPartnerXpath("9993", "test2");
+            RecentItemsWindowLocators.createBusinessPartnerXpath("9994", "test2");
             CommonFunctions.waitForEelementExists(RecentItemsWindowLocators.recentBusinessPartner);
             CommonFunctions.validateObjectVisible(RecentItemsWindowLocators.recentBusinessPartner,"business partner created");
+            CommonFunctions.waitForEelementExists(BusinessPartnerFormLocators.savedMessage);
+            CommonFunctions.validateObjectVisible(BusinessPartnerFormLocators.savedMessage, "save success message");
         }
 
         [Then(@"The application should be closed after run")]

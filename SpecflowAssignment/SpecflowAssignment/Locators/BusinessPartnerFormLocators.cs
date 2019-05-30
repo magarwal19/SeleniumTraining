@@ -25,5 +25,7 @@ namespace SpecflowAssignment.Locators
         }
         public static By vendor = By.XPath("//label[text()='Vendor']/../../span[contains(@class,'z-checkbox z-checkbox-default')]");
         public static By save = By.XPath("//a[contains(@title,'Save changes')]");
+        public static By savedMessage = By.XPath("//span[text()='Record saved']");
+        public static By errorMessage = By.XPath("//span[contains(text(),'Could not save record - Require unique data:  ')]");
     }
 }
