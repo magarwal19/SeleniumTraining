@@ -54,6 +54,7 @@ namespace SpecflowAssignment.Specflow
         [Then(@"The business partner page should be closed")]
         public void ThenTheBusinessPartnerPageShouldBeClosed()
         {
+            CommonFunctions.waitForEelementNotExists(BusinessPartnerLocators.businessPartnerWindow);
             CommonFunctions.validateObjectInVisible(BusinessPartnerLocators.businessPartnerWindow,"Business Partner Window");
         }
 
@@ -107,19 +108,38 @@ namespace SpecflowAssignment.Specflow
         [When(@"I enter the required values in Business partner form")]
         public void WhenIEnterTheRequiredValuesInBusinessPartnerForm()
         {
-            BusinessPartnerForm.enterValues("Fertilizer", "test", "user", "1234");
+            BusinessPartnerInfo partnerInfo = new BusinessPartnerInfo();
+            partnerInfo.name = "test2";
+            partnerInfo.name2 = "user";
+            partnerInfo.organization = "Fertilizer";
+            partnerInfo.rating = "C";
+            partnerInfo.referenceNumber = "user123";
+            partnerInfo.searchKey = "9993";
+            partnerInfo.vendor = true;
+            partnerInfo.businessPartnerGroup = "Customers";
+            partnerInfo.creditStatus = "OK";
+            partnerInfo.description = "creating a test user";
+            BusinessPartnerForm.enterValues(partnerInfo);
         }
 
         [When(@"Click on Save button")]
         public void WhenClickOnSaveButton()
         {
-            ScenarioContext.Current.Pending();
+            CommonFunctions.PerformClick(BusinessPartnerFormLocators.save);
         }
 
         [Then(@"A new business partner should be created")]
         public void ThenANewBusinessPartnerShouldBeCreated()
         {
-            ScenarioContext.Current.Pending();
+            RecentItemsWindowLocators.createBusinessPartnerXpath("9993", "test2");
+            CommonFunctions.waitForEelementExists(RecentItemsWindowLocators.recentBusinessPartner);
+            CommonFunctions.validateObjectVisible(RecentItemsWindowLocators.recentBusinessPartner,"business partner created");
+        }
+
+        [Then(@"The application should be closed after run")]
+        public void ThenTheApplicationShouldBeClosedAfterRun()
+        {
+            CommonFunctions.closeApplication();
         }
 
     }

@@ -85,9 +85,11 @@
     <Compile Include="Locators\BusinessPartnerLocators.cs" />
     <Compile Include="Locators\HomPageLocators.cs" />
     <Compile Include="Locators\LoginPageLocator.cs" />
+    <Compile Include="Locators\RecentItemsWindowLocators.cs" />
     <Compile Include="Locators\TestSitesHomePageLocator.cs" />
     <Compile Include="Pages\BusinessPartner.cs" />
     <Compile Include="Pages\BusinessPartnerForm.cs" />
+    <Compile Include="Pages\BusinessPartnerInfo.cs" />
     <Compile Include="Pages\LoginPage.cs" />
     <Compile Include="Pages\TestSuitesHomePage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

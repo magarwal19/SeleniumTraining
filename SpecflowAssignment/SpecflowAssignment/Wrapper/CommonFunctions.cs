@@ -10,6 +10,7 @@ using OpenQA.Selenium.IE;
 using OpenQA.Selenium.Edge;
 using SeleniumExtras.WaitHelpers;
 using OpenQA.Selenium.Support.UI;
+using NUnit.Framework;
 
 namespace SpecflowAssignment.Wrapper
 {
@@ -75,6 +76,10 @@ namespace SpecflowAssignment.Wrapper
             //maximize the browser window if not maximized already
             driver.Manage().Window.Maximize();
         }
+        public static void closeApplication()
+        {
+            driver.Quit();
+        }
         public static void PerformClick(By by)
         {
             IWebElement webElement = driver.FindElement(by);
@@ -121,6 +126,11 @@ namespace SpecflowAssignment.Wrapper
             WebDriverWait wait = new WebDriverWait(driver, new TimeSpan(0, 1, 0));
             wait.Until(SeleniumExtras.WaitHelpers.ExpectedConditions.ElementExists(by));
         }
+        public static void waitForEelementNotExists(By by)
+        {
+            WebDriverWait wait = new WebDriverWait(driver, new TimeSpan(0, 1, 0));
+            wait.Until(SeleniumExtras.WaitHelpers.ExpectedConditions.InvisibilityOfElementLocated(by));
+        }
         public static void waitForEelementEnabled(By by)
         {
             WebDriverWait wait = new WebDriverWait(driver, new TimeSpan(0, 1, 0));
@@ -134,7 +144,7 @@ namespace SpecflowAssignment.Wrapper
             }
             else
             {
-                Console.WriteLine("The object " + objectName + " is not visible");
+                Assert.Fail("The object " + objectName + " is not visible");
             }
         }
         public static void validateObjectInVisible(By by, string objectName)
@@ -145,7 +155,7 @@ namespace SpecflowAssignment.Wrapper
             }
             else
             {
-                Console.WriteLine("The object " + objectName + " is visible");
+                Assert.Fail("The object " + objectName + " is visible");
             }
         }
 
