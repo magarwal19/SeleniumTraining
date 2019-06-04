@@ -62,6 +62,7 @@ namespace SpecflowAssignment.Specflow
         public void WhenIEnterTheValuesInTheFields()
         {
             BusinessPartner.enterValues("123", "asdf", "def", "test");
+            BusinessPartner.validateEmptyFields();
         }
 
         [When(@"click on reset button")]

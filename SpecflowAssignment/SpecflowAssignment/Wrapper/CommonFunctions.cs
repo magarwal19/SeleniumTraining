@@ -160,9 +160,9 @@ namespace SpecflowAssignment.Wrapper
             }
         }
 
-        public static string getText(By by)
+        public static string getTextByValue(By by)
         {
-            return driver.FindElement(by).Text;
+            return driver.FindElement(by).GetAttribute("value");
         }
 
         public static void selectDropDownByText(By by, string value)

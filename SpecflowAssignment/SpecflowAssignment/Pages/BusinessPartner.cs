@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using SpecflowAssignment.Wrapper;
 using SpecflowAssignment.Locators;
+using NUnit.Framework;
 
 namespace SpecflowAssignment.Pages
 {
@@ -32,21 +33,26 @@ namespace SpecflowAssignment.Pages
         }
         public static void validateEmptyFields()
         {
-            if(CommonFunctions.getText(BusinessPartnerLocators.searhKey)!="")
+            string val;
+            val = CommonFunctions.getTextByValue(BusinessPartnerLocators.searhKey);
+            if (val != "")
             {
-                new FormatException("The values for search key is not empty");
+                Assert.Fail("The values for search key is not empty and is " + val);
             }
-            if (CommonFunctions.getText(BusinessPartnerLocators.name) != "")
+            val = CommonFunctions.getTextByValue(BusinessPartnerLocators.name);
+            if (CommonFunctions.getTextByValue(BusinessPartnerLocators.name) != "")
             {
-                new FormatException("The values for name is not empty");
+                Assert.Fail("The values for name is not empty and is " + val);
             }
-            if (CommonFunctions.getText(BusinessPartnerLocators.name2) != "")
+            val = CommonFunctions.getTextByValue(BusinessPartnerLocators.name2);
+            if (CommonFunctions.getTextByValue(BusinessPartnerLocators.name2) != "")
             {
-                new FormatException("The values for name2 is not empty");
+                Assert.Fail("The values for name2 is not empty and is " + val);
             }
-            if (CommonFunctions.getText(BusinessPartnerLocators.Description) != "")
+            val = CommonFunctions.getTextByValue(BusinessPartnerLocators.Description);
+            if (CommonFunctions.getTextByValue(BusinessPartnerLocators.Description) != "")
             {
-                new FormatException("The values for Description is not empty");
+                Assert.Fail("The values for Description is not empty and is " + val);
             }
         }
     }
